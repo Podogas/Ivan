@@ -1,0 +1,26 @@
+.countdown {
+    color: #e2e2e2;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-size:cover;
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZG5hNDVvcG1oejJkeG5jdXgxemxrNWdmeTRwajQ2NG5hamJ1dGt4OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/elcAvTEXkG02d17sr7/giphy.gif");
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.countdown__header {
+
+}
+.countdown__timer {
+    font-size: 6.5rem;
+}
+
+
+    .PartyAnimation {
+        width: 100%;
+        height: 100vh;
+       
+      }
+      
+      

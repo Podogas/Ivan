@@ -1,0 +1,28 @@
+.life-stats {
+    background-color: #f69181;
+    color: #202f32;
+    width: 100%;
+    margin-bottom: 10vh;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .life-stats__header {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.6rem;
+    margin: 1.5rem;
+    font-weight: bold;
+    display: inline-flex;
+  }
+  .left {
+    justify-content: start;
+  }
+  .right {
+    justify-content: end;
+  }

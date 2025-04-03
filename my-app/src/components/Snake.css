@@ -1,0 +1,75 @@
+.game-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+  }
+  
+  .game-board {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #202f32;
+    border: 2px solid #fff;
+  }
+  .snake-segment.head {
+    background-image: url(../media/vanyaSnake.png);
+    background-size: cover;
+    background-color: #81c0f6;
+  }
+  
+  .snake-segment {
+    background-image: url(../media/vanyaSnake.png);
+    background-size: cover;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #81c0f6;
+    border: 1px solid #202f32;
+    border-radius: 50%;
+  }
+  
+  .food {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f69181;
+    border: 1px solid #202f32;
+    border-radius: 50%;
+  }
+  
+  .game-over-snake {
+    z-index: 10;
+    position: absolute;
+    font-size: 30px;
+    color: #202f32;
+  }
+  
+  .restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f69181;
+    color: #202f32;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .restart-button:hover {
+    background-color: #f37e6c;
+  }
+  .score-snake {
+    position: absolute;
+    top: -40px;
+    font-size: 20px;
+    color: rgb(1, 1, 1);
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .snake__caption {
+
+  }
